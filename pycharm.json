@@ -1,0 +1,24 @@
+{
+	"homepage": "https://www.jetbrains.com/pycharm/",
+	"version": "2016.3.2",
+	"url": ["https://download.jetbrains.com/python/pycharm-community-2016.3.2.exe"],
+	"hash": ["2d812c047f2ef66402730dc0111f7a443abe54232ce06c470720c9d8ec82ff5e"],
+	"installer": {
+		"args": [
+			"/S",
+			"/D=$dir"
+		]
+	},
+	"checkver": {
+        "url": "https://www.jetbrains.com/pycharm/download/#section=windows",
+        "re": "<span.*>([\\d.]+)<\/span>"
+    },
+	"architecture": {
+        "64bit": {
+			"bin": "bin\\pycharm64.exe"
+        },
+        "32bit": {
+			"bin": "bin\\pycharm.exe"
+		}
+    }
+}
