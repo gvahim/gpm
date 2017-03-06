@@ -1,0 +1,20 @@
+{
+    "homepage": "https://www.virtualbox.org/",
+    "license": "GPL2",
+    "version": "5.1.12",
+	
+	"url": "http://download.virtualbox.org/virtualbox/5.1.12/VirtualBox-5.1.12-112440-Win.exe",
+	"hash": "0cbdc245122fab090625bb3ec49f21f68c9bbad7d69e05e4a42b1a6ad1968b54",
+	
+	"installer": {
+        "args": [
+            "--silent", 
+		    "--path $dir"
+        ]
+    },
+    "bin": "VirtualBox.exe",
+	"checkver": {
+        "url": "https://www.virtualbox.org/wiki/Downloads",
+        "re": "<strong>VirtualBox ([\\d.]+)"
+    }
+}
