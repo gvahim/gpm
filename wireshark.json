@@ -1,0 +1,29 @@
+{
+    "homepage": "https://www.wireshark.org/",
+    "license": "GPL2",
+    "version": "2.2.3",
+    "architecture": {
+        "64bit": {
+            "url": "https://1.as.dl.wireshark.org/win64/Wireshark-win64-2.2.3.exe",
+            "hash": "f259f5b7d730554a3002792e631588c09c8aa313d4f6265aec0951ae46c9f325"
+        },
+        "32bit": {
+            "url": "https://1.as.dl.wireshark.org/win32/Wireshark-win32-2.2.3.exe",
+            "hash": "3c22adc95cfe85c8c5896a14fea3edefb10cdbd3af086551de2df6bd3d048e82"
+        }
+    },
+	"installer": {
+        "args": [
+            "/S", 
+		    "/D=$dir"
+        ]
+    },
+    "bin": [
+        "Wireshark.exe",
+        "tshark.exe"
+    ],
+	"checkver": {
+        "url": "https://www.wireshark.org/download.html",
+        "re": "Wireshark is ([\\d.]+)"
+    }
+}
