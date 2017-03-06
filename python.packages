@@ -7,12 +7,16 @@ numpy
 matplotlib
 pandas
 lxml
-xlrd
-xlwt
-xlutils
 pyserial
 pyodbc
 python-dateutil
-pyparsing
+pyparsingxlrd
+xlrd
+xlwt
+xlutils
 openpyxl
 networkx
+
+# scapy
+cryptography
+scapy
