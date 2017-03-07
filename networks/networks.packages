@@ -1,7 +1,7 @@
 pyreadline
 cryptography
 numpy
-pyx
+pyx==0.12.1
 graphviz
 vpython
 scapy
