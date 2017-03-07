@@ -1,8 +1,10 @@
 ipython
-pyreadlines
+pyreadline
 django
 pygame
+py2exe=0.6.9
 pylint
+pycrypto
 numpy
 matplotlib
 pandas
@@ -15,4 +17,5 @@ xlrd
 xlwt
 xlutils
 openpyxl
+pyx==0.12.1
 networkx

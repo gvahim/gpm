@@ -1,0 +1,7 @@
+pyreadline
+cryptography
+numpy
+pyx==0.12.1
+graphviz
+vpython
+scapy
