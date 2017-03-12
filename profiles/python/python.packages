@@ -2,7 +2,10 @@ ipython
 pyreadline
 django
 pygame
+<<<<<<< HEAD:python/python.packages
 # py2exe==0.6.9
+=======
+>>>>>>> master:profiles/python/python.packages
 pylint
 pycrypto
 numpy
@@ -19,3 +22,4 @@ xlutils
 openpyxl
 pyx==0.12.1
 networkx
+Pillow
