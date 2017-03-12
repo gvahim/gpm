@@ -15,8 +15,7 @@
     "installer": {
 		"args": [
             "/SP",
-			"/VERYSILENT",
-			"/D=$dir"
+			"/VERYSILENT"
 		]
 	}
 }
