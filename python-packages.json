@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/gvahim/scoop",
     "version": "1.0",
-    "url": "https://raw.githubusercontent.com/gvahim/scoop/master/profiles/python/python.packages",
+    "url": "https://raw.githubusercontent.com/gvahim/scoop/master/profiles/python.packages",
     "hash": "8a38d6d0e6a29fe03bd6010a2162fc15d801d7d9b5853d4afdcf389a740b06df",
     "pre_install": "python -m pip install --upgrade pip",
     "post_install": "python -m pip install -r $dir/python.packages"
