@@ -1,0 +1,22 @@
+{
+    "homepage": "https://wxpython.org/",
+    "license": "http://www.wxwidgets.org/about/licence/",
+    "version": "3.0.2.0",
+    "architecture": {
+        "64bit": {
+            "url": "http://downloads.sourceforge.net/wxpython/wxPython3.0-win64-3.0.2.0-py27.exe",
+            "hash": "69f69f817cb9832058b55de0c60cac288a6833d85bbb8dd5b7db8b1f64c44c47"
+        },
+        "32bit": {
+            "url": "http://downloads.sourceforge.net/wxpython/wxPython3.0-win32-3.0.2.0-py27.exe",
+            "hash": "65c33342ce862eaa866183a86dcad5d36c46af534d0a150b789c2088ae015094"
+        }
+    },
+    "installer": {
+		"args": [
+            "/SP",
+			"/VERYSILENT",
+			"/D=$dir"
+		]
+	}
+}
