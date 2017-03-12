@@ -19,3 +19,4 @@ xlutils
 openpyxl
 pyx==0.12.1
 networkx
+Pillow
