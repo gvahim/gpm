@@ -7,7 +7,7 @@
 ## Contributors
 
 ## Duplication Reduction
-This apps installed from the main bucket of scoop:
+This apps installed from the main bucket of [scoop](https://github.com/lukesampson/scoop/tree/master/bucket):
 * 7zip
 * dosbox
 * git
@@ -15,4 +15,4 @@ This apps installed from the main bucket of scoop:
 
 ## License
 
-It's Free
+It's Free and it will be free forever :)
