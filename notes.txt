@@ -1,0 +1,5 @@
+Take this app from scoop main bucket (reduce duplication):
+7zip
+dosbox
+git
+openssh
