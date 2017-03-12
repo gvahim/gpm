@@ -1,5 +1,5 @@
 .\python.profile.cmd
 
-scoop install gvahim winpcap
-scoop install gvahim wireshark
-scoop install gvahim networks.packages
+scoop install winpcap
+scoop install wireshark
+scoop install networks.packages

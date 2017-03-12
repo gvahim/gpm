@@ -1,4 +1,4 @@
-scoop install gvahim python27
-scoop install gvahim pycharm
-scoop install gvahim visual_cpp_for_python27
-scoop install gvahim python.packages
+scoop install python27
+scoop install pycharm
+scoop install visual_cpp_for_python27
+scoop install python.packages
