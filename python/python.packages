@@ -2,7 +2,6 @@ ipython
 pyreadline
 django
 pygame
-py2exe=0.6.9
 pylint
 pycrypto
 numpy
@@ -12,10 +11,11 @@ lxml
 pyserial
 pyodbc
 python-dateutil
-pyparsingxlrd
+pyparsing
 xlrd
 xlwt
 xlutils
 openpyxl
 pyx==0.12.1
 networkx
+Pillow
