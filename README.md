@@ -1,4 +1,4 @@
-## Gvahim 2.0
+# Gvahim Package Manager
 
 ## Installation
 
